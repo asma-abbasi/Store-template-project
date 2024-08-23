@@ -89,6 +89,11 @@
     grid-template-columns: auto auto;
   }
 } */
+ @media screen and (max-width:767px) {
+  .banner{
+    display: none;
+  }
+ }
 @media screen and (min-width: 580px) {
   .slider .slides .slide span {
     top: 17%;
@@ -117,7 +122,7 @@
   padding: 20px 10px;
   font-size: 1em;
 }
-.product-sec-new .shopping-card {
+.shopping-card {
   text-align: center;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -215,8 +220,7 @@
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
-.supper-offer-box .body {
-}
+
 .supper-offer-box .body .img-body {
   text-align: center;
   padding: 0px 10px;
@@ -265,11 +269,27 @@
 .banner {
   text-align: center;
   padding: 0px 6px;
-
 }
 .banner .img-banner img {
   width: 80%;
   border-radius: 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-  rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.owl-stage-outer {
+  direction: ltr;
+}
+.dragble-list .title {
+  padding: 0px 20px;
+  padding-bottom: 20px;
+}
+
+.dragble-list .title span {
+  font-size: 1.2em;
+  color: #444;
+  border-bottom: 1.5px solid #e74c3c;
+}
+.dragble-list img {
+  width: 70% !important ;
+  margin: auto;
 }
